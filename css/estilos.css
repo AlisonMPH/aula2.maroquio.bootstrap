@@ -37,3 +37,36 @@
 .vh-90 {
     min-height: 90vh;
 }
+
+/*main.container {
+    margin-bottom: 400px;
+}*/
+
+footer a {
+    display: block;
+    text-decoration: none;
+    color: var(--bs-white) !important;
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.table tr>td:nth-of-type(1),
+.table tr>td:nth-of-type(3),
+.table tr>td:nth-of-type(4),
+.table tr>td:nth-of-type(5),
+.table tr>td:nth-of-type(6),
+.table tr>th:nth-of-type(1),
+.table tr>th:nth-of-type(3),
+.table tr>th:nth-of-type(4),
+.table tr>th:nth-of-type(5),
+.table tr>th:nth-of-type(6) {
+    white-space: nowrap;
+    width: 1%;
+    text-align: center;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/lib/bootstrap/css/vapor.bootstrap.min.css">
+    <link rel="stylesheet" href="/lib/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <title>Login</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark py-4">
+            <div class="container">
+                <a class="navbar-brand" href="/principal.html">
+                    <i class="bi bi-bank fs-5"></i>
+                    <span>AMS</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPricipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="menuPricipal">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="/principal.html">Principal</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/produtos.html">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contato.html">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/login.html">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main class="py-3">
+            <form class="w-50 mx-auto">
+                <h1>Login</h1>
+                <hr>
+                <div class="mb-3 form-floating">
+                    <input type="email" class="form-control" id="txtEmail" placeholder=" ">
+                    <label for="txtEmail">E-mail</label>
+                </div>
+                <div class="mb-3 form-floating">
+                    <input type="password" class="form-control" id="txtSenha" placeholder=" ">
+                    <label for="txtSenha">Senha</label>
+                </div>
+                <div class="mb-3">
+                    <button class="btn btn-primary btn-lg w-100">Entrar</button>
+                </div>
+                <div class="text-center">
+                    <p class="m-0">
+                        <a href="#" class="text-decoration-none">Quero me cadastrar</a>
+                    </p>
+                    <p class="m-0">
+                        <a href="#" class="text-decoration-none">Esqueci minha senha</a>
+                    </p>
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer class="bg-dark fixed-bottom text-center p-3">
+        <div class="container">
+            <div class="row row-cols-3">
+                <div>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 1</a>
+                </div>
+                <div>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 2</a>
+                </div>
+                <div>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 3</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+        <!--<p class="m-0">
+            Copyright &copy; 2024 Alison Mozer <br>
+            Todos direitos reservados
+        </p>-->
+    </footer>
+    <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
