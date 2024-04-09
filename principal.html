@@ -46,29 +46,152 @@
     <div class="container">
         <main class="py-3">
             <form class="w-100 mx-auto">
-                <h1>Principal</h1>
+                <div id="carrossel" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="1"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="2"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="3"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="4"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="5"></button>
+                        <button type="button" data-bs-target="#carrossel" data-bs-slide-to="6"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img\banners\banner_img1.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\banners\banner_img2.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\banners\banner_img3.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\banners\banner_img4.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\banners\banner_img5.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\banners\banner_img6.webp" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img\banners\banner_img7.webp" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carrossel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carrossel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                        <span class="visually-hidden">Próximo</span>
+                    </button>
+                </div>
                 <hr>
                 <!--<aside class="d-none d-lg-block col-lg-3 bg-secondary vh-20"></aside>-->
-                <article class="col-12 col-lg-9 bg-info">
-                    <div class="row row-cols-md-2 row-cols-lg-4">
-                        <section class="bg-success vh-40">
-                            <i class="bi bi-coin fs-1 text-warning"></i>
-                        </section>
-                        <section class="bg-warning vh-40">
-                            <i class="bi bi-cart fs-1 text-dark"></i>
-                        </section>
-                        <section class="bg-danger vh-40">
-                            <i class="bi bi-heart fs-1 text-warning-emphasis"></i>
-                        </section>
-                        <section class="bg-info vh-40">
-                            <i class="bi bi-square  fs-1 text-danger"></i>
-                        </section>
+                <div class="row row-cols-5 mb-5 g-2">
+                    <div class="col"><img src="img/promos/promo6.jpeg" alt="" class="w-100"></div>
+                    <div class="col"><img src="img/promos/promo7.jpeg" alt="" class="w-100"></div>
+                    <div class="col"><img src="img/promos/promo9.jpeg" alt="" class="w-100"></div>
+                    <div class="col"><img src="img/promos/promo8.jpeg" alt="" class="w-100"></div>
+                    <div class="col"><img src="img/promos/promo5.jpeg" alt="" class="w-100"></div>
+                </div>
+                <hr>
+                <div id="beneficios" class="d-none d-lg-block">
+                    <h3>Aproveite nossos benefícios</h3>
+                    <div class="row row-cols-5 mb-3 g-3">
+                        <div class="col">
+                            <div class="d-flex border border-2 border-white border-opacity-50 rounded-2 bg-body-secondary p-2 bg-opacity-25 small h-100 align-items-center">
+                                <i class="bi bi-currency-bitcoin fs-px-32 lh-1 align-self-center"></i>
+                            <div class="d-inline-block ms-2">
+                                <h6 class="m-0"><b>Pedido Mínimo</b></h6>
+                                <span class="text-light">No valor de R$50,00.</span>
+                            </div>
+                        </div>
                     </div>
-                </article>
+                    <div class="col">
+                        <div class="d-flex border border-2 border-white border-opacity-50 rounded-2 bg-body-secondary p-2 bg-opacity-25 small h-100 align-items-center">
+                            <i class="bi bi-truck  fs-px-32 lh-1 align-self-center"></i>
+                            <div class="d-inline-block ms-2">
+                                <h6 class="m-0"><b>Frete Grátis</b></h6>
+                                <span class="text-light">Acima de R$100,00.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex border border-2 border-white border-opacity-50 rounded-2 bg-body-secondary p-2 bg-opacity-25 small h-100 align-items-center">
+                            <i class="bi bi-person-raised-hand  fs-px-32 lh-1 align-self-center"></i>
+                            <div class="d-inline-block ms-2">
+                                <h6 class="m-0"><b>Retire Grátis</b></h6>
+                                <span class="text-light">Na loja mais proxima.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex border border-2 border-white border-opacity-50 rounded-2 bg-body-secondary p-2 bg-opacity-25 small h-100 align-items-center">
+                            <i class="bi bi-credit-card  fs-px-32 lh-1 align-self-center"></i>
+                            <div class="d-inline-block ms-2">
+                                <h6 class="m-0"><b>Pagamento</b></h6>
+                                <span class="text-light">Crédito e débito.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex border border-2 border-white border-opacity-50 rounded-2 bg-body-secondary p-2 bg-opacity-25 small h-100 align-items-center">
+                            <i class="bi bi-recycle  fs-px-32 lh-1 align-self-center"></i>
+                            <div class="d-inline-block ms-2">
+                                <h6 class="m-0"><b>Troca Garantida</b></h6>
+                                <span class="text-light">Liberdade nas compras.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xxl-6 g-3 mb-3">
+                    <div>
+                        <div class="card w-100">
+                            <img src="/img/promos/promo3.jpeg" class="card card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Logitech</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card w-100">
+                            <img src="/img/promos/promo4.png" class="card card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Kingston</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card w-100">
+                            <img src="/img/promos/promo8.jpeg" class="card card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Dell</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card w-100">
+                            <img src="/img/promos/promo6.jpeg" class="card card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Corsair</h5>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </form>
         </main>
     </div>
-    <footer class="bg-dark fixed-bottom text-center p-3">
+    <footer class="bg-dark text-center p-3">
         <div class="container">
             <div class="row row-cols-3">
                 <div>
@@ -95,9 +218,9 @@
             </div>
         </div>
         <!--<p class="m-0">
-            Copyright &copy; 2024 Alison Mozer <br>
-            Todos direitos reservados
-        </p>-->
+Copyright &copy; 2024 Alison Mozer <br>
+Todos direitos reservados
+</p>-->
     </footer>
     <script src="/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
